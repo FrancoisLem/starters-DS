@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "starters_ds"
+version = "0.1.0"
+description = "Starter Notebooks for DS Projects"
+authors = ["Francois Lemeille <flemeille@yahoo.fr>"]
+
+[tool.poetry.dependencies]
+python = "~3.9"
+scikit-learn = "^1.1.1"
+pandas = "^1.4.3"
+lightgbm = "^3.3.2"
+requests = "^2.28.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+pylint = "^2.14.4"
+black = "^22.6.0"
+pre-commit = "^2.20.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
